@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "source": "index.html",
   "scripts": {
-    "start": "yarn parcel index.html",
-    "styles": "tailwindcss -i ./styles/input.css -o ./styles/output.css --watch",
-    "build": "tailwindcss -i ./styles/input.css -o ./styles/output.css && parcel build"
+    "start": "parcel index.html & yarn tailwind --watch",
+    "build": "yarn tailwind && parcel build",
+    "tailwind": "tailwindcss -i ./styles/input.css -o ./styles/output.css"
   },
   "dependencies": {},
   "devDependencies": {
