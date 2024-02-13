@@ -2,7 +2,8 @@
   "name": "teleo-website",
   "version": "0.0.1",
   "scripts": {
-    "start": "tailwindcss -i ./styles/input.css -o ./styles/output.css --watch"
+    "build": "tailwindcss -i ./styles/input.css -o ./styles/output.css",
+    "start": "yarn build --watch"
   },
   "dependencies": {},
   "devDependencies": {
