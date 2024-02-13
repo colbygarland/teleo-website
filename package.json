@@ -1,12 +1,15 @@
 {
   "name": "teleo-website",
   "version": "0.0.1",
+  "source": "index.html",
   "scripts": {
-    "build": "tailwindcss -i ./styles/input.css -o ./styles/output.css",
-    "start": "yarn build --watch"
+    "start": "yarn parcel index.html",
+    "styles": "tailwindcss -i ./styles/input.css -o ./styles/output.css --watch",
+    "build": "tailwindcss -i ./styles/input.css -o ./styles/output.css && parcel build"
   },
   "dependencies": {},
   "devDependencies": {
+    "parcel": "^2.11.0",
     "prettier": "^3.2.5",
     "tailwindcss": "^3.4.1"
   }
