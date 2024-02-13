@@ -2,7 +2,7 @@
   "name": "teleo-website",
   "version": "0.0.1",
   "scripts": {
-    "start": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch"
+    "start": "tailwindcss -i ./styles/input.css -o ./styles/output.css --watch"
   },
   "dependencies": {},
   "devDependencies": {
