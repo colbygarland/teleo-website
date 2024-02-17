@@ -5,12 +5,14 @@
   "scripts": {
     "start": "parcel index.html & yarn tailwind --watch",
     "build": "yarn tailwind && parcel build",
-    "tailwind": "tailwindcss -i ./styles/input.css -o ./styles/output.css"
+    "tailwind": "tailwindcss -i ./styles/input.css -o ./styles/output.css",
+    "format": "prettier . --write"
   },
   "dependencies": {},
   "devDependencies": {
     "parcel": "^2.11.0",
     "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1"
   }
 }
