@@ -2,3 +2,4 @@ node_modules
 styles/output.css
 .parcel-cache
 dist
+.DS_Store
