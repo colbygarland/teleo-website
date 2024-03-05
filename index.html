@@ -19,30 +19,40 @@
     <meta name="description" content="Teleo" />
   </head>
   <body class="relative font-main">
-    <header class="absolute left-0 top-0 z-50">
-      <a href="/" class="ml-6 mt-6 inline-block">
-        <span class="text-white">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="145px"
-            height="60px"
-            viewBox="0 0 145 60"
-            version="1.1"
-          >
-            <g id="surface1">
-              <path
-                style="fill: currentColor"
-                d="M 28.984375 47.125 L 23.710938 47.125 L 23.710938 17.773438 L 17.109375 17.773438 L 17.109375 12.898438 L 35.636719 12.898438 L 35.636719 17.773438 L 28.984375 17.773438 L 28.984375 47.125 M 57.949219 17.773438 L 47.765625 17.773438 L 47.765625 26.804688 L 55.289062 26.804688 L 55.289062 31.679688 L 47.765625 31.679688 L 47.765625 42.25 L 57.949219 42.25 L 57.949219 47.125 L 42.496094 47.125 L 42.496094 12.898438 L 57.949219 12.898438 L 57.949219 17.773438 M 70.027344 42.25 L 80.519531 42.25 L 80.519531 47.125 L 64.753906 47.125 L 64.753906 12.898438 L 70.027344 12.898438 L 70.027344 42.25 M 102.421875 17.773438 L 92.238281 17.773438 L 92.238281 26.804688 L 99.761719 26.804688 L 99.761719 31.679688 L 92.238281 31.679688 L 92.238281 42.25 L 102.421875 42.25 L 102.421875 47.125 L 86.964844 47.125 L 86.964844 12.898438 L 102.421875 12.898438 L 102.421875 17.773438 M 114.34375 36.144531 C 114.34375 38.863281 114.5 39.789062 115.011719 40.8125 C 115.625 41.945312 116.902344 42.660156 118.386719 42.660156 C 119.871094 42.660156 121.152344 41.945312 121.765625 40.8125 C 122.328125 39.738281 122.429688 38.914062 122.429688 36.144531 L 122.429688 23.878906 C 122.429688 21.109375 122.328125 20.285156 121.765625 19.210938 C 121.152344 18.082031 119.871094 17.363281 118.386719 17.363281 C 116.902344 17.363281 115.625 18.082031 115.011719 19.210938 C 114.5 20.234375 114.34375 21.160156 114.34375 23.878906 Z M 127.703125 36.246094 C 127.703125 40.097656 127.136719 42.40625 125.757812 44.355469 C 124.222656 46.511719 121.664062 47.640625 118.386719 47.640625 C 115.113281 47.640625 112.554688 46.511719 111.019531 44.355469 C 109.636719 42.40625 109.074219 40.097656 109.074219 36.246094 L 109.074219 23.777344 C 109.074219 19.929688 109.636719 17.617188 111.019531 15.667969 C 112.554688 13.511719 115.113281 12.382812 118.386719 12.382812 C 121.664062 12.382812 124.222656 13.511719 125.757812 15.667969 C 127.136719 17.617188 127.703125 19.929688 127.703125 23.777344 L 127.703125 36.246094 "
-              />
-              <path
-                style="fill: currentColor"
-                d="M 3.53125 56.480469 L 141.28125 56.480469 L 141.28125 3.542969 L 3.53125 3.542969 Z M 144.8125 60.023438 L 0 60.023438 L 0 0 L 144.8125 0 L 144.8125 60.023438 "
-              />
-            </g>
-          </svg>
-        </span>
-      </a>
+    <header class="fixed left-0 top-0 z-50 w-full bg-primary-950">
+      <div
+        class="mx-auto flex max-w-7xl items-center justify-between p-4 shadow-md"
+      >
+        <a href="/" class="inline-block">
+          <span class="text-white">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="145px"
+              height="60px"
+              viewBox="0 0 145 60"
+              version="1.1"
+            >
+              <g id="surface1">
+                <path
+                  style="fill: currentColor"
+                  d="M 28.984375 47.125 L 23.710938 47.125 L 23.710938 17.773438 L 17.109375 17.773438 L 17.109375 12.898438 L 35.636719 12.898438 L 35.636719 17.773438 L 28.984375 17.773438 L 28.984375 47.125 M 57.949219 17.773438 L 47.765625 17.773438 L 47.765625 26.804688 L 55.289062 26.804688 L 55.289062 31.679688 L 47.765625 31.679688 L 47.765625 42.25 L 57.949219 42.25 L 57.949219 47.125 L 42.496094 47.125 L 42.496094 12.898438 L 57.949219 12.898438 L 57.949219 17.773438 M 70.027344 42.25 L 80.519531 42.25 L 80.519531 47.125 L 64.753906 47.125 L 64.753906 12.898438 L 70.027344 12.898438 L 70.027344 42.25 M 102.421875 17.773438 L 92.238281 17.773438 L 92.238281 26.804688 L 99.761719 26.804688 L 99.761719 31.679688 L 92.238281 31.679688 L 92.238281 42.25 L 102.421875 42.25 L 102.421875 47.125 L 86.964844 47.125 L 86.964844 12.898438 L 102.421875 12.898438 L 102.421875 17.773438 M 114.34375 36.144531 C 114.34375 38.863281 114.5 39.789062 115.011719 40.8125 C 115.625 41.945312 116.902344 42.660156 118.386719 42.660156 C 119.871094 42.660156 121.152344 41.945312 121.765625 40.8125 C 122.328125 39.738281 122.429688 38.914062 122.429688 36.144531 L 122.429688 23.878906 C 122.429688 21.109375 122.328125 20.285156 121.765625 19.210938 C 121.152344 18.082031 119.871094 17.363281 118.386719 17.363281 C 116.902344 17.363281 115.625 18.082031 115.011719 19.210938 C 114.5 20.234375 114.34375 21.160156 114.34375 23.878906 Z M 127.703125 36.246094 C 127.703125 40.097656 127.136719 42.40625 125.757812 44.355469 C 124.222656 46.511719 121.664062 47.640625 118.386719 47.640625 C 115.113281 47.640625 112.554688 46.511719 111.019531 44.355469 C 109.636719 42.40625 109.074219 40.097656 109.074219 36.246094 L 109.074219 23.777344 C 109.074219 19.929688 109.636719 17.617188 111.019531 15.667969 C 112.554688 13.511719 115.113281 12.382812 118.386719 12.382812 C 121.664062 12.382812 124.222656 13.511719 125.757812 15.667969 C 127.136719 17.617188 127.703125 19.929688 127.703125 23.777344 L 127.703125 36.246094 "
+                />
+                <path
+                  style="fill: currentColor"
+                  d="M 3.53125 56.480469 L 141.28125 56.480469 L 141.28125 3.542969 L 3.53125 3.542969 Z M 144.8125 60.023438 L 0 60.023438 L 0 0 L 144.8125 0 L 144.8125 60.023438 "
+                />
+              </g>
+            </svg>
+          </span>
+        </a>
+        <a
+          href="https://app.tresel.io/login"
+          target="_blank"
+          class="mr-4 inline-block rounded-md bg-primary-600 px-3 py-2 font-semibold text-white shadow-sm transition duration-200 hover:bg-primary-700"
+          >Login to Tresel</a
+        >
+      </div>
     </header>
     <main>
       <section>
@@ -61,12 +71,12 @@
             <h1
               class="mb-6 text-balance text-5xl font-semibold lg:mb-12 lg:text-6xl lg:font-bold"
             >
-              Our
-              <span class="text-primary-600">Mission</span>
+              Seamless
+              <span class="text-primary-600">Integration</span>
             </h1>
             <p class="text-lg font-extralight leading-9 md:text-xl">
-              Our mission at Teleo Inc, is to seamlessly integrate the physical
-              and digital realms, developing intelligent solutions that enhance
+              Our mission at Teleo, is to seamlessly integrate the physical and
+              digital realms, developing intelligent solutions that enhance
               efficiency, connectivity, and sustainability across industries. We
               strive to be innovative, collaborative, and excellent in our
               pursuit of delivering transformative and reliable services to our
@@ -127,9 +137,23 @@
                         Oil and Gas
                       </dt>
                       <dd class="inline">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Maiores impedit perferendis suscipit eaque, iste
-                        dolor cupiditate blanditiis ratione.
+                        <ul class="ml-4 list-disc">
+                          <li>
+                            Flowback and Completions - Gas, Water, Oil flow,
+                            pad-wide pressures and temperatures, tank levels
+                          </li>
+                          <li>Fracking - Pressure and Temperature</li>
+                          <li>Offset Fracking - Pressure</li>
+                          <li>
+                            Pipeline - Hydrotest pressure and temperature, riser
+                            pressures
+                          </li>
+                          <li>
+                            Water Management - Flow rates, Water license
+                            management, C-Ring and tank levels, diesel and
+                            electric pump control and automation
+                          </li>
+                        </ul>
                       </dd>
                     </div>
                     <div class="relative pl-9">
@@ -140,8 +164,11 @@
                         Municipal
                       </dt>
                       <dd class="inline">
-                        Anim aute id magna aliqua ad ad non deserunt sunt. Qui
-                        irure qui lorem cupidatat commodo.
+                        <ul class="ml-4 list-disc">
+                          <li>Water flow rates and temperatures</li>
+                          <li>Electric pump control and automation</li>
+                          <li>Water level monitoring</li>
+                        </ul>
                       </dd>
                     </div>
                     <div class="relative pl-9">
@@ -152,8 +179,13 @@
                         Mining
                       </dt>
                       <dd class="inline">
-                        Ac tincidunt sapien vehicula erat auctor pellentesque
-                        rhoncus. Et magna sit morbi lobortis.
+                        <ul class="ml-4 list-disc">
+                          <li>
+                            Diesel and electric pump control and automation
+                          </li>
+                          <li>Tank levels</li>
+                          <li>Water flow rates</li>
+                        </ul>
                       </dd>
                     </div>
                     <a
@@ -299,6 +331,25 @@
           </div>
         </div>
       </section>
+      <section id="careers" class="bg-primary-950">
+        <div class="mx-auto max-w-7xl px-6 py-10 lg:px-20 lg:py-32">
+          <h2
+            class="mb-6 mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl md:mb-12"
+          >
+            Careers
+          </h2>
+          <p class="mb-6 text-lg text-gray-50">
+            We're excited to learn more about you and your skills! If you're
+            interested in joining our team, send us your job application along
+            with links to your portfolio and public git repositories to
+            <a
+              href="mailto:careers@teleoinc.com"
+              class="font-semibold text-primary-400"
+              >careers@teleoinc.com</a
+            >. We can't wait to see what you've been working on.
+          </p>
+        </div>
+      </section>
       <section id="contact">
         <div class="grid-cols-2 lg:grid">
           <div
@@ -312,7 +363,7 @@
               become our mission, so you can focus on what you do best while we
               engineer solutions that power your success.
             </p>
-            <ul class="text-gray-800">
+            <ul class="mb-6 text-gray-800">
               <li class="mb-2">
                 <a
                   href="https://maps.app.goo.gl/Z214PPCc7BHNS74x7"
@@ -340,6 +391,24 @@
                 >
               </li>
             </ul>
+            <h2 class="mb-6 text-3xl font-bold text-gray-700 lg:text-4xl">
+              Need support?
+            </h2>
+            <p class="mb-6 text-lg text-gray-800">
+              Reach out to us by phone or text at
+              <a
+                href="tel:+1-587-803-2814"
+                class="font-semibold text-primary-600"
+                >+1-587-803-2814</a
+              >
+              or by email at
+              <a
+                href="mailto:support@teleoinc.com"
+                class="font-semibold text-primary-600"
+                >support@teleoinc.com</a
+              >. One of our team members will get back to you within 24 business
+              hours.
+            </p>
           </div>
           <div class="px-6 py-10 lg:px-20 lg:py-32">
             <form>
@@ -387,7 +456,7 @@
               const now = new Date()
               document.write(now.getFullYear())
             </script>
-            Teleo Technologies. All rights reserved.
+            Teleo Inc. All rights reserved.
           </p>
         </div>
       </footer>
